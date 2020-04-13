@@ -14,7 +14,7 @@
 	<% if @book.errors.any? %>
 		<%=form_for(@book) do |f| %>
 		<div class="field">
-		    <label for="book">Title</label>
+		    <label class="book">Title</label>
 		    <%= f.text_field :title, class: "book_field" %>
 		</div>
 	    <div class="field">
