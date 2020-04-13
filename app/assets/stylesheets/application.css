@@ -13,3 +13,178 @@
  *= require_tree .
  *= require_self
  */
+
+/* common */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a:link {
+	color: #333;
+}
+
+a:visited {
+  color: #666;
+}
+
+.notice {
+	color: green;
+}
+
+body {
+	margin: 33px;
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 13px;
+    line-height: 18px;
+    margin: 33px;
+}
+
+h1 {
+	display: block;
+	font-size: 2em;
+	margin: 0.67em 0;
+	font-weight: bold;
+}
+
+p {
+	display: block;
+	margin: 33px;
+}
+
+table {
+	display: table;
+	border-collapse: separate;
+	border-spacing: 2px;
+}
+
+thead {
+	display: table-header-group;
+	vertical-align: middle;
+}
+
+th {
+	padding-bottom: 5px;
+}
+
+tbody {
+	display: table-row-group;
+	vertical-align: middle;
+}
+
+tr {
+	display: table-row;
+	vertical-align: inherit;
+}
+
+td {
+	padding-bottom: 7px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+h2 {
+	display: block;
+    font-size: 1.5em;
+    margin: 0.83em 0;
+    font-weight: bold;
+}
+
+.field {
+	margin-bottom: 10px;
+}
+
+.book {
+	padding: 2px;
+    background-color: red;
+    display: table;
+}
+
+.book_field {
+	padding: 2px;
+    border-color: red;
+    border-width: 2px;
+    display: table;
+}
+
+.book_field_a {
+	padding: 2px;
+    white-space: pre-wrap;
+}
+
+label {
+	display: block;
+}
+
+.field input {
+	display: inline-block;
+	padding: 1px;
+	border-width: 2px;
+}
+
+.actions {
+	margin-bottom: 10px;
+}
+
+.actions input {
+	-webkit-appearance: push-button;
+    user-select: none;
+    white-space: pre;
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    color: buttontext;
+    background-color: buttonface;
+    box-sizing: border-box;
+    padding: 1px 7px 2px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
+    border-image: initial;
+}
+
+.new_book {
+	display: block;
+}
+
+.error_explanation {
+	width: 450px;
+    border: 2px solid red;
+    padding: 7px;
+    padding-bottom: 0;
+    margin-bottom: 20px;
+    background-color: #f0f0f0;
+}
+
+.error_explanation h2 {
+	text-align: left;
+    font-weight: bold;
+    padding: 5px 5px 5px 15px;
+    font-size: 12px;
+    margin: -7px;
+    margin-bottom: 0;
+    background-color: #c00;
+    color: #fff;
+}
+
+.error_explanation ul {
+	display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    margin: 33px;
+    font-size: 12px;
+}
+
+.error_explanation li {
+	font-size: 12px;
+}
+
+.edit_book {
+	display: block;
+}
+/* common */
